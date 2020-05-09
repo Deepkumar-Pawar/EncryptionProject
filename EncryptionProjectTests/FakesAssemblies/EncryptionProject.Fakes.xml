@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EncryptionProject.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:EncryptionProject.Fakes.ShimEncryptionParametersConsole">
+            <summary>Shim type of EncryptionProject.EncryptionParametersConsole</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimEncryptionParametersConsole.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimEncryptionParametersConsole.#ctor(EncryptionProject.EncryptionParametersConsole)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EncryptionProject.Fakes.ShimEncryptionParametersConsole.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimEncryptionParametersConsole.AllInstances.GetDecryptedFileName">
+            <summary>Sets the shim of EncryptionParametersConsole.GetDecryptedFileName()</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimEncryptionParametersConsole.AllInstances.GetEncryptedFileName">
+            <summary>Sets the shim of EncryptionParametersConsole.GetEncryptedFileName()</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimEncryptionParametersConsole.AllInstances.GetEncryptionKey">
+            <summary>Sets the shim of EncryptionParametersConsole.GetEncryptionKey()</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimEncryptionParametersConsole.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimEncryptionParametersConsole.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimEncryptionParametersConsole.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimEncryptionParametersConsole.Bind(EncryptionProject.IEncryptionParameters)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimEncryptionParametersConsole.Constructor">
+            <summary>Sets the shim of EncryptionParametersConsole.EncryptionParametersConsole()</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimEncryptionParametersConsole.GetDecryptedFileName">
+            <summary>Sets the shim of EncryptionParametersConsole.GetDecryptedFileName()</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimEncryptionParametersConsole.GetEncryptedFileName">
+            <summary>Sets the shim of EncryptionParametersConsole.GetEncryptedFileName()</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimEncryptionParametersConsole.GetEncryptionKey">
+            <summary>Sets the shim of EncryptionParametersConsole.GetEncryptionKey()</summary>
+        </member>
+        <member name="T:EncryptionProject.Fakes.ShimOffsetCipher">
+            <summary>Shim type of EncryptionProject.OffsetCipher</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimOffsetCipher.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimOffsetCipher.#ctor(EncryptionProject.OffsetCipher)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EncryptionProject.Fakes.ShimOffsetCipher.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.AllInstances.CalculateOffsetFactorString">
+            <summary>Sets the shim of OffsetCipher.CalculateOffsetFactor(String key)</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.AllInstances.DecryptIEncryptionParameters">
+            <summary>Sets the shim of OffsetCipher.Decrypt(IEncryptionParameters encParams)</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.AllInstances.EncryptFurtherIEncryptionParameters">
+            <summary>Sets the shim of OffsetCipher.EncryptFurther(IEncryptionParameters encParams)</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.AllInstances.EncryptIEncryptionParameters">
+            <summary>Sets the shim of OffsetCipher.Encrypt(IEncryptionParameters encParams)</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.AllInstances.GenerateKey">
+            <summary>Sets the shim of OffsetCipher.GenerateKey()</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.AllInstances.GetRandomInt32Int32">
+            <summary>Sets the shim of OffsetCipher.GetRandom(Int32 min, Int32 max)</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimOffsetCipher.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimOffsetCipher.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimOffsetCipher.Bind(EncryptionProject.ICipher)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.CalculateOffsetFactorString">
+            <summary>Sets the shim of OffsetCipher.CalculateOffsetFactor(String key)</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.Constructor">
+            <summary>Sets the shim of OffsetCipher.OffsetCipher()</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.DecryptIEncryptionParameters">
+            <summary>Sets the shim of OffsetCipher.Decrypt(IEncryptionParameters encParams)</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.EncryptFurtherIEncryptionParameters">
+            <summary>Sets the shim of OffsetCipher.EncryptFurther(IEncryptionParameters encParams)</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.EncryptIEncryptionParameters">
+            <summary>Sets the shim of OffsetCipher.Encrypt(IEncryptionParameters encParams)</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.GenerateKey">
+            <summary>Sets the shim of OffsetCipher.GenerateKey()</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimOffsetCipher.GetRandomInt32Int32">
+            <summary>Sets the shim of OffsetCipher.GetRandom(Int32 min, Int32 max)</summary>
+        </member>
+        <member name="T:EncryptionProject.Fakes.ShimProgram">
+            <summary>Shim type of EncryptionProject.Program</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimProgram.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimProgram.#ctor(EncryptionProject.Program)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EncryptionProject.Fakes.ShimProgram.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimProgram.AllInstances.Menu">
+            <summary>Sets the shim of Program.Menu()</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimProgram.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.ShimProgram.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimProgram.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimProgram.Constructor">
+            <summary>Sets the shim of Program.Program()</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimProgram.MainStringArray">
+            <summary>Sets the shim of Program.Main(String[] args)</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.ShimProgram.Menu">
+            <summary>Sets the shim of Program.Menu()</summary>
+        </member>
+        <member name="T:EncryptionProject.Fakes.StubEncryptionParametersConsole">
+            <summary>Stub type of EncryptionProject.EncryptionParametersConsole</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubEncryptionParametersConsole.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.StubEncryptionParametersConsole.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubEncryptionParametersConsole.InitializeStub">
+            <summary>Initializes a new instance of type StubEncryptionParametersConsole</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.StubEncryptionParametersConsole.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.StubEncryptionParametersConsole.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EncryptionProject.Fakes.StubICipher">
+            <summary>Stub type of EncryptionProject.ICipher</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubICipher.#ctor">
+            <summary>Initializes a new instance of type StubICipher</summary>
+        </member>
+        <member name="F:EncryptionProject.Fakes.StubICipher.DecryptIEncryptionParameters">
+            <summary>Sets the stub of ICipher.Decrypt(IEncryptionParameters encParams)</summary>
+        </member>
+        <member name="F:EncryptionProject.Fakes.StubICipher.EncryptIEncryptionParameters">
+            <summary>Sets the stub of ICipher.Encrypt(IEncryptionParameters encParams)</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubICipher.EncryptionProject#ICipher#Decrypt(EncryptionProject.IEncryptionParameters)">
+            <summary>Sets the stub of ICipher.Decrypt(IEncryptionParameters encParams)</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubICipher.EncryptionProject#ICipher#Encrypt(EncryptionProject.IEncryptionParameters)">
+            <summary>Sets the stub of ICipher.Encrypt(IEncryptionParameters encParams)</summary>
+        </member>
+        <member name="T:EncryptionProject.Fakes.StubIEncryptionParameters">
+            <summary>Stub type of EncryptionProject.IEncryptionParameters</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubIEncryptionParameters.#ctor">
+            <summary>Initializes a new instance of type StubIEncryptionParameters</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubIEncryptionParameters.EncryptionProject#IEncryptionParameters#GetDecryptedFileName">
+            <summary>Sets the stub of IEncryptionParameters.GetDecryptedFileName()</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubIEncryptionParameters.EncryptionProject#IEncryptionParameters#GetEncryptedFileName">
+            <summary>Sets the stub of IEncryptionParameters.GetEncryptedFileName()</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubIEncryptionParameters.EncryptionProject#IEncryptionParameters#GetEncryptionKey">
+            <summary>Sets the stub of IEncryptionParameters.GetEncryptionKey()</summary>
+        </member>
+        <member name="F:EncryptionProject.Fakes.StubIEncryptionParameters.GetDecryptedFileName">
+            <summary>Sets the stub of IEncryptionParameters.GetDecryptedFileName()</summary>
+        </member>
+        <member name="F:EncryptionProject.Fakes.StubIEncryptionParameters.GetEncryptedFileName">
+            <summary>Sets the stub of IEncryptionParameters.GetEncryptedFileName()</summary>
+        </member>
+        <member name="F:EncryptionProject.Fakes.StubIEncryptionParameters.GetEncryptionKey">
+            <summary>Sets the stub of IEncryptionParameters.GetEncryptionKey()</summary>
+        </member>
+        <member name="T:EncryptionProject.Fakes.StubOffsetCipher">
+            <summary>Stub type of EncryptionProject.OffsetCipher</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubOffsetCipher.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.StubOffsetCipher.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubOffsetCipher.InitializeStub">
+            <summary>Initializes a new instance of type StubOffsetCipher</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.StubOffsetCipher.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.StubOffsetCipher.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EncryptionProject.Fakes.StubProgram">
+            <summary>Stub type of EncryptionProject.Program</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubProgram.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.StubProgram.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EncryptionProject.Fakes.StubProgram.InitializeStub">
+            <summary>Initializes a new instance of type StubProgram</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.StubProgram.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EncryptionProject.Fakes.StubProgram.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
